@@ -15,6 +15,7 @@ const App = () => {
     <>
       <h2>Hej</h2>
 
+      {/* クラス名のタグを使用することで該当クラスのJSXが読み込み可能となる */}
       <ColorfulMessage selfcolor="blue" message="こんにちは" />
       <ColorfulMessage selfcolor="red" message="こんにちは" />
 
